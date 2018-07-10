@@ -11,7 +11,7 @@ var StringDecoder = require('string_decoder').StringDecoder;
 var config = require('./lib/config');
 var fs = require('fs');
 var handlers = require('./lib/handlers');
-var helpers = require('./lib/helpers')
+var helpers = require('./lib/helpers');
 
 // Instantiate the http server
 var httpServer = http.createServer(function(req,res){
@@ -105,6 +105,6 @@ var unifiedServer = function(req,res){
 // Define a request router
 var router = {
   'sample' : handlers.ping,
-  'users' : handlers.users
-  'tokens' : handlers.tokens;
-}
+  'users' : handlers.users,
+  'tokens' : handlers.tokens
+};
