@@ -1,0 +1,1 @@
+{"check":{"id":"vo31goy0dq3lw4clvnfu","userPhone":"4039165652","protocol":"https","url":"stettlerbuildingsupplies.ca","method":"get","successCodes":[200,201,301,302],"timeoutSeconds":5,"state":"up","lastChecked":5},"outcome":{"error":false,"responseCode":200},"state":"up","alert":false,"time":1532388166707}
